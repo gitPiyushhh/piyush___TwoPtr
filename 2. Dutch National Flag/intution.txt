@@ -1,0 +1,16 @@
+/////////////////////////////////////
+/// Constraint: We need to return in O(n) time soln
+
+/////////////////////////////////////
+/// Technique: If you have 3 elems to sort then sort 2 & the last one is automatically done
+
+1. Take two ptr setup
+2. Maintain one extra ptr 'i' for the traversal
+3. Check all condn if 1: Do not touch, 2. If 0: Swap with a[l] {first 1} {also move i coz we are sure that the arr before is already sorted}, 3. If 2: Move to the last
+
+
+/////////////////////////////////////
+//// Complexities: 
+
+Time: O(n)
+Space: O(1)

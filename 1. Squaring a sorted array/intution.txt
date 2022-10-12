@@ -1,0 +1,9 @@
+/////////////////////////////////////
+/// Constraint: We need to return in O(n) time soln
+
+/////////////////////////////////////
+/// We can only think of this soln coz {arr is sorted}
+
+// 1. Take two ptr setup
+// 2. In extra space{ans}, append all the greater elem 1 by 1
+// 3. Reverse the arr and return

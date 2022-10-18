@@ -2,7 +2,7 @@ def solve(arr):
     
     ## // 2 ptr setup
     r = len(arr)-1      # First 2
-    l = 0               # Last 1
+    l = 0               # Last 1    
     i = 0               # iterative ptr
     
     while i < r:

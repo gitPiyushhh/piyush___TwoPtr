@@ -1,0 +1,13 @@
+///////////////////////////////////
+/// MAIN FCTN
+1. Sort the array {two be able to apply 2 ptrs}
+2. Run loop for static & low variables {from 0 to n-2 coz we'll assign i+1 to low and for last we cant have low and high value different}
+3. Chck if values same then continue else call the helper method
+
+///////////////////////////////////
+/// HELPER FCTN
+1. We ll have 3 ptrs {static, low, high}, high is everytime the last one of array
+2. Till low < high loop coz {we dont want same variables repeated}
+3. In innerloop 3 codn {1: Target, 2: Greater, 3: Smaller}
+4. If target found then append to res but now chck again for the repeated in low and high
+5. So 2 extra condn till we get repeated in low and high, move fwd and continue

@@ -1,0 +1,10 @@
+1. Why 2 ptr:
+    |
+    Coz we know, width = distance b/w 2 blocks
+                 height = min of 2 blocks
+
+2. Algo:
+    |
+    (a) Find the max_area
+    |
+    (b) Update the lesser ptr

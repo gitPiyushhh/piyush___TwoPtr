@@ -1,0 +1,17 @@
+1. Why 2 ptr:
+    |
+    Coz we can easily find out dual sum in O(n)
+
+2. Algo:
+    |
+    (a) First half sum:  Check for the i, j through 2 for loops {Also check for duplicates earlier}
+    |
+    (b) Next half sum: Check for the l, h through 2 ptr approach {Also check for duplicates}
+    |
+    (c) If half_sm1 + half_sm2 == target, then append to res
+
+3. Keep in mind:
+    |
+    (a) Always know the limits for i, j
+    |
+    (b) Always beaware how to use 'continue' to chk duplicates

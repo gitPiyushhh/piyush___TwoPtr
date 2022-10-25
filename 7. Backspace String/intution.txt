@@ -1,1 +1,15 @@
- 
+1. Why 2 ptr:
+    |
+    Coz we can keep track of both str through two ptr
+
+2. Algo:
+    |
+    (a) Find the next valid index {through helper mthd}
+    |
+    (b) In helper mthd {always keep cnt on the num of skipped chars}
+
+3. Keep in mind:
+    |
+    (a) We always iterate throgh last {coz we need to delete the elems prev to hash}
+    |
+    (b) Revise multiple times all the cases for main mthd {to return Tue or False}

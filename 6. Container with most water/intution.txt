@@ -7,4 +7,4 @@
     |
     (a) Find the max_area
     |
-    (b) Update the lesser ptr
+    (b) Update the lesser ptr 

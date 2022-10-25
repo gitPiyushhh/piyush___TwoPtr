@@ -12,6 +12,6 @@
 
 3. Keep in mind:
     |
-    (a) Always know the limits for i, j
+    (a) Always know the limits for i, j 
     |
     (b) Always beaware how to use 'continue' to chk duplicates

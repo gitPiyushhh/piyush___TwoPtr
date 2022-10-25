@@ -10,4 +10,4 @@
 2. Till low < high loop coz {we dont want same variables repeated}
 3. In innerloop 3 codn {1: Target, 2: Greater, 3: Smaller}
 4. If target found then append to res but now chck again for the repeated in low and high
-5. So 2 extra condn till we get repeated in low and high, move fwd and continue
+5. So 2 extra condn till we get repeated in low and high, move fwd and continue 

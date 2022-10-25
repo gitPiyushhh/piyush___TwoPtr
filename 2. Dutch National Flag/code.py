@@ -6,7 +6,7 @@ def solve(arr):
     i = 0               # iterative ptr
     
     while i < r:
-        
+    
         # 1. One 
         if arr[i] == 1:
             i += 1 # // Sort 0, 2 onw will be sorted automatically

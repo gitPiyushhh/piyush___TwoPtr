@@ -17,5 +17,5 @@ def solve(arr):
         
         if nums[i] == nums[j]:
             return False
-    
+
     return True 

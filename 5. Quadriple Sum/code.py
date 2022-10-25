@@ -14,7 +14,7 @@ def solve(nums, target):
                 l += 1
             
             else: h -= 1
-
+ 
     ######################################
     ### Main Code
     res = []

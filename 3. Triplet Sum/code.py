@@ -17,7 +17,7 @@ def solve(nums):
             
             else: 
                 l += 1
-    
+
     
     nums.sort()
     n = len(nums)

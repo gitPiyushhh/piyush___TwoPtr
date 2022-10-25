@@ -1,5 +1,5 @@
 def solve(arr):
-    
+
     ## // 2 ptr setup
     l = 0
     r = len(arr)
